@@ -30,3 +30,32 @@ AI_clip の著作権は制作者に帰属します。
 
 知人・関係者向けの利用を想定しています。
 再配布・改変・商用利用を行う場合は、事前に制作者へ確認してください。
+
+---
+
+## English
+
+AI_clip is a tool by **sabakanF** for extracting and splitting vector artwork in Adobe Illustrator. It is designed for drawings with many layers. Select a boundary to extract the artwork within it, or select a cut line to split the artwork. You can copy the extracted region into another Illustrator document, where the layer organization helps you continue editing individual paths.
+
+### How to run AI_clip
+
+1. Keep the entire `AI_clip` folder together.
+2. In Illustrator, select the boundary or cut line along with the objects you want to process.
+3. Choose **File → Scripts → Other Script…** and run `AI_clip.jsx`.
+
+### Setup notes
+
+The Illustrator script uses a bundled Python engine for calculations. You do not need to install Python.
+
+- Keep the folder structure intact.
+- You can rename the JSX file.
+- Keep the `AI_clip_engine` folder name and its contents as supplied.
+- Save your original artwork before running the tool.
+
+The package includes components from Python and PyInstaller. See the included `NOTICE.txt` for details.
+
+### Copyright and terms of use
+
+Copyright © 2026 sabakanF. The author retains the copyright to AI_clip.
+
+The tool is provided without warranty. The author is not liable for damages arising from its use. The tool is intended for acquaintances and related parties. Contact the author in advance regarding redistribution, modification, or commercial use.
